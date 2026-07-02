@@ -1,65 +1,120 @@
-import Image from "next/image";
+import React from "react";
+import fs from "fs";
+import path from "path";
+import { getNetflixData, getKpis, NetflixTitle } from "@/lib/data";
+import HomePageClient from "@/components/HomePageClient";
 
-export default function Home() {
-  return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+export default function HomePage() {
+  // Load TMDb cache from disk
+  let tmdbCache: Record<string, any> = {};
+  const cachePath = path.join(process.cwd(), "tmdb_cache.json");
+  if (fs.existsSync(cachePath)) {
+    try {
+      tmdbCache = JSON.parse(fs.readFileSync(cachePath, "utf8"));
+    } catch (e) {
+      console.error("Failed to load tmdb_cache.json:", e);
+    }
+  }
+
+  // Enrich data elements with TMDb cached posters, backdrops, and ratings
+  const rawData = getNetflixData();
+  const data = rawData.map((title) => {
+    const cached = tmdbCache[title.show_id];
+    if (cached && cached.matched) {
+      return {
+        ...title,
+        poster_path: cached.poster_url || "",
+        backdrop_path: cached.backdrop_url || "",
+        vote_average: cached.vote_average || title.vote_average,
+        genresList: cached.genres && cached.genres.length > 0 ? cached.genres : title.genresList,
+      };
+    }
+    return title;
+  });
+
+  const kpis = getKpis();
+
+  // Helper to safely select top records
+  const getTop = (
+    list: NetflixTitle[],
+    filterFn: (x: NetflixTitle) => boolean,
+    sortFn: (a: NetflixTitle, b: NetflixTitle) => number,
+    count = 20
+  ) => {
+    return [...list].filter(filterFn).sort(sortFn).slice(0, count);
+  };
+
+  // 1. Trending Now (popularity desc)
+  const trending = getTop(data, () => true, (a, b) => (b.popularity || 0) - (a.popularity || 0), 20);
+
+  // 2. Top Rated (IMDb)
+  const topRatedImdb = getTop(data, (d) => (d.imdb_rating || 0) > 0, (a, b) => (b.imdb_rating || 0) - (a.imdb_rating || 0), 20);
+
+  // 3. Top Rated (TMDb)
+  const topRatedTmdb = getTop(data, (d) => (d.vote_average || 0) > 0, (a, b) => (b.vote_average || 0) - (a.vote_average || 0), 20);
+
+  // 4. Recently Added
+  const recentlyAdded = getTop(data, (d) => d.parsedDateAdded !== null, (a, b) => {
+    const aTime = a.parsedDateAdded ? new Date(a.parsedDateAdded).getTime() : 0;
+    const bTime = b.parsedDateAdded ? new Date(b.parsedDateAdded).getTime() : 0;
+    return bTime - aTime;
+  }, 20);
+
+  // 5. Top Movies
+  const topMovies = getTop(data, (d) => d.type === 'Movie', (a, b) => (b.popularity || 0) - (a.popularity || 0), 20);
+
+  // 6. Top TV Shows
+  const topTvShows = getTop(data, (d) => d.type === 'TV Show', (a, b) => (b.popularity || 0) - (a.popularity || 0), 20);
+
+  // 7. Award Winning Titles
+  const awardWinning = getTop(data, (d) => d.awardsWins > 0, (a, b) => b.awardsWins - a.awardsWins, 20);
+
+  // Helper to match genres case-insensitively
+  const hasGenre = (d: NetflixTitle, genreName: string) => 
+    d.genresList.some(g => g.toLowerCase().includes(genreName.toLowerCase()));
+
+  // 8. Family Friendly
+  const familyFriendly = getTop(data, (d) => 
+    hasGenre(d, 'family') || 
+    hasGenre(d, 'children') || 
+    ['G', 'PG', 'TV-G', 'TV-Y', 'TV-Y7'].includes(d.rating),
+    (a, b) => (b.popularity || 0) - (a.popularity || 0), 20
   );
+
+  // 9. Action Collection
+  const action = getTop(data, (d) => hasGenre(d, 'action') || hasGenre(d, 'adventure'), (a, b) => (b.popularity || 0) - (a.popularity || 0), 20);
+
+  // 10. Comedy Collection
+  const comedy = getTop(data, (d) => hasGenre(d, 'comedy'), (a, b) => (b.popularity || 0) - (a.popularity || 0), 20);
+
+  // 11. Drama Collection
+  const drama = getTop(data, (d) => hasGenre(d, 'drama'), (a, b) => (b.popularity || 0) - (a.popularity || 0), 20);
+
+  // 12. Horror Collection
+  const horror = getTop(data, (d) => hasGenre(d, 'horror') || hasGenre(d, 'thriller'), (a, b) => (b.popularity || 0) - (a.popularity || 0), 20);
+
+  // 13. Sci-Fi Collection
+  const scifi = getTop(data, (d) => hasGenre(d, 'science fiction') || hasGenre(d, 'sci-fi') || hasGenre(d, 'fantasy'), (a, b) => (b.popularity || 0) - (a.popularity || 0), 20);
+
+  // 14. Animation Collection
+  const animation = getTop(data, (d) => hasGenre(d, 'animation') || hasGenre(d, 'anime'), (a, b) => (b.popularity || 0) - (a.popularity || 0), 20);
+
+  const rows = {
+    trending,
+    topRatedImdb,
+    topRatedTmdb,
+    recentlyAdded,
+    topMovies,
+    topTvShows,
+    awardWinning,
+    familyFriendly,
+    action,
+    comedy,
+    drama,
+    horror,
+    scifi,
+    animation,
+  };
+
+  return <HomePageClient kpis={kpis} rows={rows} allTitles={data} />;
 }
