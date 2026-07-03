@@ -21,19 +21,7 @@
 ![Stars](https://img.shields.io/github/stars/CHELLURU-AJHITH-KUMAR/netflix-business-intelligence?style=flat-square&color=e50914)
 ![Last Commit](https://img.shields.io/github/last-commit/CHELLURU-AJHITH-KUMAR/netflix-business-intelligence?style=flat-square)
 
-<br/>
 
-[🚀 Live Demo](#) · [📷 Screenshots](#screenshots) · [📄 Documentation](#table-of-contents) · [🐛 Report Bug](https://github.com/CHELLURU-AJHITH-KUMAR/netflix-business-intelligence/issues)
-
-</div>
-
-<br/>
-
-<div align="center">
-<img src="public/banner.png" alt="Netflix Business Intelligence Platform Banner" width="100%" style="border-radius: 12px;" />
-</div>
-
-<br/>
 
 ---
 
