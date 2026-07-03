@@ -12454,6 +12454,82 @@
       }
     ]
   },
+  "83067": {
+    "matched": true,
+    "tmdb_id": 83067,
+    "title": "Adorável Psicose",
+    "poster_url": "https://image.tmdb.org/t/p/w500/pDcW40kYaQgXR6mroznuSLgyLBd.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w1280/538fF2kaaEsBcLAKXb23eFJpFaP.jpg",
+    "vote_average": 10,
+    "vote_count": 2,
+    "tagline": "",
+    "overview": "",
+    "genres": [
+      "Comedy"
+    ],
+    "imdb_id": null,
+    "cast": [
+      {
+        "name": "Natalia Klein",
+        "character": "Natália",
+        "profile_url": "https://image.tmdb.org/t/p/w185/8oXbdXQt92SGnCUMxmcGUl6c1Ft.jpg"
+      },
+      {
+        "name": "Juliana Guimarães",
+        "character": "Dra. Frida",
+        "profile_url": "https://image.tmdb.org/t/p/w185/p6yARv76faypK5ADbkqNRvSuAAF.jpg"
+      },
+      {
+        "name": "Lucas Oradovschi",
+        "character": "Cara de Bigode",
+        "profile_url": "https://image.tmdb.org/t/p/w185/5aWQK58jUlOTpTvkV8o9MrIsYcB.jpg"
+      },
+      {
+        "name": "Carlos Alberto Seidl",
+        "character": "Narrador",
+        "profile_url": null
+      },
+      {
+        "name": "Carol Ferman",
+        "character": "Hannah",
+        "profile_url": "https://image.tmdb.org/t/p/w185/ywXxDS0nR3JBW07V3xhxPjYBJIy.jpg"
+      },
+      {
+        "name": "Gerson Lobo",
+        "character": "Gilvanchir",
+        "profile_url": null
+      },
+      {
+        "name": "Franco Kuster",
+        "character": "Teo",
+        "profile_url": null
+      },
+      {
+        "name": "André Locatelli",
+        "character": "Andy",
+        "profile_url": null
+      }
+    ],
+    "crew": [
+      {
+        "name": "Lucas Hoffman",
+        "job": "Writer"
+      },
+      {
+        "name": "Lucas Hoffman",
+        "job": "Screenplay"
+      },
+      {
+        "name": "Gustavo Nasr",
+        "job": "Director"
+      },
+      {
+        "name": "Natalia Klein",
+        "job": "Screenplay"
+      }
+    ],
+    "similar": []
+  },
   "83154": {
     "matched": true,
     "tmdb_id": 83154,
@@ -14517,6 +14593,77 @@
       }
     ]
   },
+  "130379": {
+    "matched": true,
+    "tmdb_id": 130379,
+    "title": "¡Qué dice Chile!",
+    "poster_url": "https://image.tmdb.org/t/p/w500/7TGW4ufQWPcavVM8Au5OFTnyuuj.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w1280/9nTsmS2qPwbp0wCpx05ceIrXZga.jpg",
+    "vote_average": 5.5,
+    "vote_count": 2,
+    "tagline": "",
+    "overview": "",
+    "genres": [],
+    "imdb_id": null,
+    "cast": [
+      {
+        "name": "Martín Cárcamo",
+        "character": "Self - Host",
+        "profile_url": "https://image.tmdb.org/t/p/w185/nB6nKgej13kIsqysyifXPELzLXQ.jpg"
+      }
+    ],
+    "crew": [],
+    "similar": [
+      {
+        "tmdb_id": 46,
+        "show_id": null,
+        "title": "Treasure Hunt",
+        "poster_url": "https://image.tmdb.org/t/p/w342/w8ewFUiFNC5pfDk8cBeCgk9Lwzx.jpg",
+        "release_year": 1982,
+        "vote_average": 7.5
+      },
+      {
+        "tmdb_id": 9,
+        "show_id": "67229",
+        "title": "Match Game",
+        "poster_url": "https://image.tmdb.org/t/p/w342/yO1yfYyHemDZAJyLNLz3tCiaNC8.jpg",
+        "release_year": 1973,
+        "vote_average": 7.9
+      },
+      {
+        "tmdb_id": 166,
+        "show_id": "214941",
+        "title": "Lingo",
+        "poster_url": "https://image.tmdb.org/t/p/w342/iC9fvgSBkpUgNhXJHqKxu4RiSuu.jpg",
+        "release_year": 2002,
+        "vote_average": 6.6
+      },
+      {
+        "tmdb_id": 56926,
+        "show_id": "56926",
+        "title": "Tipping Point",
+        "poster_url": "https://image.tmdb.org/t/p/w342/wMOFdn5vJ9ET1gAWgFqPfjED2i0.jpg",
+        "release_year": 2012,
+        "vote_average": 6.1
+      },
+      {
+        "tmdb_id": 56932,
+        "show_id": "56932",
+        "title": "Deal With It",
+        "poster_url": "https://image.tmdb.org/t/p/w342/yQsxQpMP6nFsJikrM2swdKCK50Z.jpg",
+        "release_year": 2013,
+        "vote_average": 0
+      },
+      {
+        "tmdb_id": 298271,
+        "show_id": null,
+        "title": "Sveriges dummaste",
+        "poster_url": "https://image.tmdb.org/t/p/w342/eCNwhVgnGMo7p1FCfJRGKRAl8nD.jpg",
+        "release_year": 2025,
+        "vote_average": 8.5
+      }
+    ]
+  },
   "136074": {
     "matched": true,
     "tmdb_id": 136074,
@@ -15843,6 +15990,109 @@
       }
     ]
   },
+  "228686": {
+    "matched": true,
+    "tmdb_id": 228686,
+    "title": "¿Volverías con tu ex?",
+    "poster_url": "https://image.tmdb.org/t/p/w500/jojiTrbGAYB0qsms5MgjlVp4ulM.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w1280/aKFZWSzxPAM6vwS8ZnckMcuvbjt.jpg",
+    "vote_average": 0,
+    "vote_count": 0,
+    "tagline": "",
+    "overview": "",
+    "genres": [
+      "Reality"
+    ],
+    "imdb_id": null,
+    "cast": [
+      {
+        "name": "Claudia Conserva",
+        "character": "Self - Host",
+        "profile_url": "https://image.tmdb.org/t/p/w185/xH1ycg9bjwZ281QNRMao9KT4wmA.jpg"
+      },
+      {
+        "name": "Roberto Artiagoitía",
+        "character": "Self - Host",
+        "profile_url": "https://image.tmdb.org/t/p/w185/grzjyJ09oeayQtK0EMBqw60qBcp.jpg"
+      },
+      {
+        "name": "Patricia Maldonado",
+        "character": "Self - Activity Host",
+        "profile_url": "https://image.tmdb.org/t/p/w185/82Urx8DoPDcGqeBNRUn9MsTRZHo.jpg"
+      },
+      {
+        "name": "Eugenia Lemos",
+        "character": "Self - Activity Host",
+        "profile_url": "https://image.tmdb.org/t/p/w185/wk6jvZzbnVzP12sxlXpKymnpX07.jpg"
+      },
+      {
+        "name": "Oriana Marzoli",
+        "character": "Self - Contestant",
+        "profile_url": "https://image.tmdb.org/t/p/w185/5NLD2Xy5TSzwVgrJMI74fqOv3sQ.jpg"
+      },
+      {
+        "name": "Luis Mateucci",
+        "character": "Self - Contestant",
+        "profile_url": null
+      },
+      {
+        "name": "Óscar Garcés",
+        "character": "Self - Contestant",
+        "profile_url": null
+      }
+    ],
+    "crew": [],
+    "similar": [
+      {
+        "tmdb_id": 62,
+        "show_id": "63468",
+        "title": "The Challenge",
+        "poster_url": "https://image.tmdb.org/t/p/w342/gHglz5TlLvHyP4Y680ofcoM8uFc.jpg",
+        "release_year": 1998,
+        "vote_average": 7.2
+      },
+      {
+        "tmdb_id": 202247,
+        "show_id": "211747",
+        "title": "FBOY Island Spain",
+        "poster_url": "https://image.tmdb.org/t/p/w342/wK56FdwfjLXoXCKK2BJNGKfmROw.jpg",
+        "release_year": 2023,
+        "vote_average": 6
+      },
+      {
+        "tmdb_id": 121066,
+        "show_id": "121066",
+        "title": "The Challenge: All Stars",
+        "poster_url": "https://image.tmdb.org/t/p/w342/nP2fwqxrnztKnLkEoFbtPzdrykt.jpg",
+        "release_year": 2021,
+        "vote_average": 6.2
+      },
+      {
+        "tmdb_id": 89238,
+        "show_id": null,
+        "title": "Paradise Hotel",
+        "poster_url": "https://image.tmdb.org/t/p/w342/orrnjrkJnz0kFzLjLWFTScghKC3.jpg",
+        "release_year": 2019,
+        "vote_average": 0
+      },
+      {
+        "tmdb_id": 331,
+        "show_id": "s1693",
+        "title": "America's Next Top Model",
+        "poster_url": "https://image.tmdb.org/t/p/w342/47EIfjYrT80AOfpAIkvSxdpwGOv.jpg",
+        "release_year": 2003,
+        "vote_average": 5.4
+      },
+      {
+        "tmdb_id": 355,
+        "show_id": "55295",
+        "title": "The Bachelor",
+        "poster_url": "https://image.tmdb.org/t/p/w342/6JQpAiVuQYgDoB9Ce3qoO3hMtFF.jpg",
+        "release_year": 2002,
+        "vote_average": 5
+      }
+    ]
+  },
   "230168": {
     "matched": true,
     "tmdb_id": 230168,
@@ -16425,6 +16675,58 @@
         "name": "Marcelo Cézan",
         "character": "Self - Host",
         "profile_url": "https://image.tmdb.org/t/p/w185/4f1Ag0cB3MG6v61t2NT64dCZW8G.jpg"
+      }
+    ],
+    "crew": [],
+    "similar": []
+  },
+  "241950": {
+    "matched": true,
+    "tmdb_id": 241950,
+    "title": "Castle Farm",
+    "poster_url": "https://image.tmdb.org/t/p/w500/vaD59Dqnu9sOVYHH2TwR4J5OCcV.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w1280/1wmLD3o5D2POuWFrl6nkR6xIMao.jpg",
+    "vote_average": 10,
+    "vote_count": 1,
+    "tagline": "",
+    "overview": "Join Farm Girl, Piggy, Farmer and all of the gang for fun and laughter!",
+    "genres": [],
+    "imdb_id": null,
+    "cast": [
+      {
+        "name": "Laura May Alsop",
+        "character": "",
+        "profile_url": null
+      },
+      {
+        "name": "Chloë Grace Moretz",
+        "character": "",
+        "profile_url": "https://image.tmdb.org/t/p/w185/yq4rYmaTRC5degaOYmJQFpaiho1.jpg"
+      },
+      {
+        "name": "Bob Golding",
+        "character": "",
+        "profile_url": null
+      },
+      {
+        "name": "Simon Mattacks",
+        "character": "",
+        "profile_url": "https://image.tmdb.org/t/p/w185/o5MYJAbOY5L41oNea8hHJssthqW.jpg"
+      },
+      {
+        "name": "Jessica Symons",
+        "character": "",
+        "profile_url": null
+      },
+      {
+        "name": "Nick Wilson",
+        "character": "",
+        "profile_url": null
+      },
+      {
+        "name": "Kate O'Sullivan",
+        "character": "",
+        "profile_url": null
       }
     ],
     "crew": [],
@@ -18625,6 +18927,24 @@
     "crew": [],
     "similar": []
   },
+  "285016": {
+    "matched": true,
+    "tmdb_id": 285016,
+    "title": "¡Salta!",
+    "poster_url": "https://image.tmdb.org/t/p/w500/cbT0HxoPlw3ntz2P39na5qqe5GL.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w1280/mEKvQUTf0cGNFtsS2IgQVccSNEx.jpg",
+    "vote_average": 0,
+    "vote_count": 0,
+    "tagline": "",
+    "overview": "",
+    "genres": [
+      "Talk"
+    ],
+    "imdb_id": null,
+    "cast": [],
+    "crew": [],
+    "similar": []
+  },
   "290098": {
     "matched": true,
     "tmdb_id": 290098,
@@ -20158,6 +20478,70 @@
         "vote_average": 6
       }
     ]
+  },
+  "470211": {
+    "matched": true,
+    "tmdb_id": 635094,
+    "title": "Girl Friend",
+    "poster_url": "https://image.tmdb.org/t/p/w500/68ohncJni9rushi1t8nKlLeJfpa.jpg",
+    "backdrop_url": null,
+    "vote_average": 0,
+    "vote_count": 0,
+    "tagline": "",
+    "overview": "When the line between friendship and romantic love becomes confusing, Sophie will do whatever it takes to make things go back to the way they were.",
+    "genres": [
+      "Drama"
+    ],
+    "imdb_id": "tt8517090",
+    "cast": [
+      {
+        "name": "Naomë Antoinette",
+        "character": "Sophie",
+        "profile_url": "https://image.tmdb.org/t/p/w185/6K16ShHfE4gAFLw2vM0y4z1Miph.jpg"
+      },
+      {
+        "name": "Sabrina Schlegel-Mejia",
+        "character": "Farris",
+        "profile_url": null
+      },
+      {
+        "name": "Giovanna Drummond",
+        "character": "Daryl",
+        "profile_url": "https://image.tmdb.org/t/p/w185/ugio6otiZZoUeQiKlyNOZTD4PZk.jpg"
+      },
+      {
+        "name": "Chloe Roe",
+        "character": "Carrie",
+        "profile_url": "https://image.tmdb.org/t/p/w185/edZi5HKoxI5pUXpeV1xLA4MSESG.jpg"
+      },
+      {
+        "name": "Lee Hubilla",
+        "character": "Adele",
+        "profile_url": null
+      },
+      {
+        "name": "Kayciblu Wright",
+        "character": "Young Sophie",
+        "profile_url": "https://image.tmdb.org/t/p/w185/jIXpRr3guIEmu6UKKTmFfmQ5cbA.jpg"
+      },
+      {
+        "name": "Angelina Palma",
+        "character": "Young Farris",
+        "profile_url": null
+      },
+      {
+        "name": "Madeline Wise",
+        "character": "Teacher",
+        "profile_url": "https://image.tmdb.org/t/p/w185/8au11zMSOm2dRPUi6akSf3FpSdz.jpg"
+      }
+    ],
+    "crew": [
+      {
+        "name": "Chloe Sarbib",
+        "job": "Director"
+      }
+    ],
+    "similar": []
   },
   "473234": {
     "matched": true,
@@ -24374,6 +24758,79 @@
       }
     ]
   },
+  "868985": {
+    "matched": true,
+    "tmdb_id": 868985,
+    "title": "¡Que viva México!",
+    "poster_url": "https://image.tmdb.org/t/p/w500/ieyUpr5ES9QEz1cn4clCnBf9XJl.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w1280/yRz2GuDYxUIkj1atbXpEETKYnV8.jpg",
+    "vote_average": 7.3,
+    "vote_count": 202,
+    "tagline": "",
+    "overview": "After his grandfather's death, a man travels with his wife and kids to his hometown, where chaos ensues with his relatives over the inheritance.",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "imdb_id": "tt22185848",
+    "cast": [
+      {
+        "name": "Damián Alcázar",
+        "character": "Rosendo / Regino / Ambrosio",
+        "profile_url": "https://image.tmdb.org/t/p/w185/6IAlrZ2yXubmmVaRsF7fdaP3N7C.jpg"
+      },
+      {
+        "name": "Alfonso Herrera",
+        "character": "Pancho Reyes",
+        "profile_url": "https://image.tmdb.org/t/p/w185/54KLFvt8iMDFmam2tsb5wk3AIcv.jpg"
+      },
+      {
+        "name": "Joaquín Cosío",
+        "character": "Rosendito / Reginito / Abuelo",
+        "profile_url": "https://image.tmdb.org/t/p/w185/ijMo3fMyY4VL1xyIj6ytiJrzaw9.jpg"
+      },
+      {
+        "name": "Ana de la Reguera",
+        "character": "Mari",
+        "profile_url": "https://image.tmdb.org/t/p/w185/nEacV1wuUHV6eUyErGBhniJ85JY.jpg"
+      },
+      {
+        "name": "Ana Martín",
+        "character": "Dolores",
+        "profile_url": "https://image.tmdb.org/t/p/w185/qiwFV3gxrZXipfO2ZTEA3Alw1M6.jpg"
+      },
+      {
+        "name": "Angelina Peláez",
+        "character": "Abuela",
+        "profile_url": "https://image.tmdb.org/t/p/w185/kpsyYf7mq5cjYsbcfFxAeYFvSGK.jpg"
+      },
+      {
+        "name": "Zaide Silvia Gutiérrez",
+        "character": "Socorro",
+        "profile_url": "https://image.tmdb.org/t/p/w185/s5GM7qbbuVelnWLTbCcocGPVRnt.jpg"
+      },
+      {
+        "name": "Sonia Couoh",
+        "character": "Lupita",
+        "profile_url": "https://image.tmdb.org/t/p/w185/i6K5a1oI8y22Cgc25vuIEDeeWZ9.jpg"
+      }
+    ],
+    "crew": [
+      {
+        "name": "Luis Estrada",
+        "job": "Director"
+      },
+      {
+        "name": "Jaime Sampietro",
+        "job": "Writer"
+      },
+      {
+        "name": "Luis Estrada",
+        "job": "Writer"
+      }
+    ],
+    "similar": []
+  },
   "869760": {
     "matched": true,
     "tmdb_id": 869760,
@@ -26313,6 +26770,119 @@
         "poster_url": "https://image.tmdb.org/t/p/w342/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
         "release_year": 2003,
         "vote_average": 8.5
+      }
+    ]
+  },
+  "1013577": {
+    "matched": true,
+    "tmdb_id": 1013577,
+    "title": "\"Sr.\"",
+    "poster_url": "https://image.tmdb.org/t/p/w500/2lyqE4OQaEvNvNQwngsZH9xzg4B.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w1280/4QslEwPvhSATtFQD1uVeJNvtusz.jpg",
+    "vote_average": 6.9,
+    "vote_count": 64,
+    "tagline": "Like father. Like son. Like no other.",
+    "overview": "A portrait of the life and career of Robert Downey Sr. (1936-2021), the visionary and fearless US filmmaker — father of actor Robert Downey Jr. — who in the sixties and seventies laid the foundations for countercultural comedy.",
+    "genres": [
+      "Documentary"
+    ],
+    "imdb_id": "tt21816824",
+    "cast": [
+      {
+        "name": "Robert Downey Sr.",
+        "character": "Self",
+        "profile_url": "https://image.tmdb.org/t/p/w185/akIXqQTWs3ILjo1ibd49cExC5z9.jpg"
+      },
+      {
+        "name": "Robert Downey Jr.",
+        "character": "Self",
+        "profile_url": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+      },
+      {
+        "name": "Chris Smith",
+        "character": "Self",
+        "profile_url": "https://image.tmdb.org/t/p/w185/w7YxLmX6901brkneH06nxPBSmji.jpg"
+      },
+      {
+        "name": "Alan Arkin",
+        "character": "Self",
+        "profile_url": "https://image.tmdb.org/t/p/w185/lTMMpkqL0G3WeFNfbtdP5COZEiX.jpg"
+      },
+      {
+        "name": "Sean Hayes",
+        "character": "Self",
+        "profile_url": "https://image.tmdb.org/t/p/w185/31TI5l5QvcZHN4fh0NpejZyJtP.jpg"
+      },
+      {
+        "name": "Norman Lear",
+        "character": "Self",
+        "profile_url": "https://image.tmdb.org/t/p/w185/8dSHtnTlR2nu3wXA0HXKvkPfnsO.jpg"
+      },
+      {
+        "name": "Lawrence Wolf",
+        "character": "Self",
+        "profile_url": "https://image.tmdb.org/t/p/w185/bYmxMvhBUngbwxz2mixhGSm1n99.jpg"
+      },
+      {
+        "name": "Exton Elias Downey",
+        "character": "Self",
+        "profile_url": null
+      }
+    ],
+    "crew": [
+      {
+        "name": "Chris Smith",
+        "job": "Director"
+      }
+    ],
+    "similar": [
+      {
+        "tmdb_id": 1363078,
+        "show_id": "1241755",
+        "title": "Arnold Schönberg - Der rastlose Visionär",
+        "poster_url": "https://image.tmdb.org/t/p/w342/pPovSoKIuM8ezxZNjomvUsI2zxf.jpg",
+        "release_year": 2024,
+        "vote_average": 8
+      },
+      {
+        "tmdb_id": 613726,
+        "show_id": null,
+        "title": "Harumi",
+        "poster_url": "https://image.tmdb.org/t/p/w342/xskckrF83p0ak4dRa4t1nB2aqnM.jpg",
+        "release_year": 2019,
+        "vote_average": 0
+      },
+      {
+        "tmdb_id": 257615,
+        "show_id": null,
+        "title": "Edward Said: The Last Interview",
+        "poster_url": "https://image.tmdb.org/t/p/w342/bx98GyHCeV8hQ7HSJCNdcahMfQg.jpg",
+        "release_year": 2004,
+        "vote_average": 7
+      },
+      {
+        "tmdb_id": 435804,
+        "show_id": null,
+        "title": "Beecham",
+        "poster_url": null,
+        "release_year": 1990,
+        "vote_average": 0
+      },
+      {
+        "tmdb_id": 436043,
+        "show_id": null,
+        "title": "Chishu Ryu and Shochiku's Ofuna Studio",
+        "poster_url": "https://image.tmdb.org/t/p/w342/aui9Z6twKg9ZkulO7vCwnFRjREx.jpg",
+        "release_year": 1988,
+        "vote_average": 7
+      },
+      {
+        "tmdb_id": 436049,
+        "show_id": null,
+        "title": "Talking with Ozu",
+        "poster_url": "https://image.tmdb.org/t/p/w342/8631Q07hZK0mzgqWEIhp8pVhG9x.jpg",
+        "release_year": 1993,
+        "vote_average": 6.5
       }
     ]
   },
@@ -28581,6 +29151,75 @@
         "vote_average": 6.7
       }
     ]
+  },
+  "1181678": {
+    "matched": true,
+    "tmdb_id": 1181678,
+    "title": "¿Quieres ser mi hijo?",
+    "poster_url": "https://image.tmdb.org/t/p/w500/6PQJsmuvSMZQMmlJfTpjIkrizUh.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w1280/xyWKrni8WrYzqn7ztvI5nIY0h62.jpg",
+    "vote_average": 8.5,
+    "vote_count": 355,
+    "tagline": "",
+    "overview": "Lu, a conformist woman in her forties, learns that her 15-year partner has been having extramarital affairs. Starting from scratch, she gets involved in an unexpected relationship with a young womanizer.",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "imdb_id": "tt27391124",
+    "cast": [
+      {
+        "name": "Ludwika Paleta",
+        "character": "Lucía",
+        "profile_url": "https://image.tmdb.org/t/p/w185/dcozq8kwFH1XEu547PZ6OpJcznz.jpg"
+      },
+      {
+        "name": "Juanpa Zurita",
+        "character": "Javier",
+        "profile_url": "https://image.tmdb.org/t/p/w185/kVWholhVRM5CwVO1WZ8DRIr8CQV.jpg"
+      },
+      {
+        "name": "Hernán Mendoza",
+        "character": "",
+        "profile_url": "https://image.tmdb.org/t/p/w185/yU4nRJhLXr4eZdujCX1ZsPNFIpC.jpg"
+      },
+      {
+        "name": "Harold Azuara",
+        "character": "La Avispa",
+        "profile_url": "https://image.tmdb.org/t/p/w185/jBZiH0YqASbQZ24PIxu1KGEHUED.jpg"
+      },
+      {
+        "name": "Agustín Arana",
+        "character": "",
+        "profile_url": null
+      },
+      {
+        "name": "Yuriria del Valle",
+        "character": "Maguis",
+        "profile_url": "https://image.tmdb.org/t/p/w185/qf0YEZkYATzdIQtIxTJrLMM61ES.jpg"
+      },
+      {
+        "name": "Karla Rico",
+        "character": "María",
+        "profile_url": "https://image.tmdb.org/t/p/w185/vqcCm2e1LJJHYrhn7517LI0bKpb.jpg"
+      },
+      {
+        "name": "Jorge Gidi",
+        "character": "Jorge",
+        "profile_url": "https://image.tmdb.org/t/p/w185/mi7CGVAkoeZ0UGk7lnIlQofzb6Q.jpg"
+      }
+    ],
+    "crew": [
+      {
+        "name": "Ihtzi Hurtado",
+        "job": "Director"
+      },
+      {
+        "name": "Ihtzi Hurtado",
+        "job": "Writer"
+      }
+    ],
+    "similar": []
   },
   "1184918": {
     "matched": true,
@@ -32854,6 +33493,124 @@
       }
     ]
   },
+  "1434243": {
+    "matched": true,
+    "tmdb_id": 1434243,
+    "title": "The Wrong Obsession",
+    "poster_url": "https://image.tmdb.org/t/p/w500/9PK7EAv8W44rUM0qc1u7SdoC4Yl.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w1280/uYRyZGOadhGwuGuLgNJi71BZCHv.jpg",
+    "vote_average": 7.5,
+    "vote_count": 2,
+    "tagline": "",
+    "overview": "Lisa tries to mend her marriage with Mark after her old boyfriend, Jake, starts working with her. While Lisa's boss, Sabrina warns her not to get too close, Jake's obsession with her becomes even more dangerous and unstable.",
+    "genres": [
+      "Thriller",
+      "TV Movie"
+    ],
+    "imdb_id": "tt35685018",
+    "cast": [
+      {
+        "name": "Vivica A. Fox",
+        "character": "Sabrina",
+        "profile_url": "https://image.tmdb.org/t/p/w185/wj77CCErWt1H0GNqYwCFNYulH7g.jpg"
+      },
+      {
+        "name": "Gina Hiraizumi",
+        "character": "Lisa",
+        "profile_url": "https://image.tmdb.org/t/p/w185/bTQUTShBYiR9yD3P424VpxYvKSY.jpg"
+      },
+      {
+        "name": "Matthew Pohlkamp",
+        "character": "Jake",
+        "profile_url": "https://image.tmdb.org/t/p/w185/94jQAUoLfygmU9Yo4F75CrT8rrp.jpg"
+      },
+      {
+        "name": "Daniel Joo",
+        "character": "Mark",
+        "profile_url": "https://image.tmdb.org/t/p/w185/7iZ8f1Hr8pmNKvP2AcyjKzicH7E.jpg"
+      },
+      {
+        "name": "Morgan Bradley",
+        "character": "Joanne Jean",
+        "profile_url": "https://image.tmdb.org/t/p/w185/kGKMBEme0mZClv7YJuy1IGezkdx.jpg"
+      },
+      {
+        "name": "Diane Robin",
+        "character": "Dr. S. Madden",
+        "profile_url": "https://image.tmdb.org/t/p/w185/3QXPjGPPYPDKsbVrYQJbo8VncXi.jpg"
+      },
+      {
+        "name": "Meredith Thomas",
+        "character": "Detective Garo",
+        "profile_url": "https://image.tmdb.org/t/p/w185/8uplyhfZx1vT6Lzw79dDnO5rWQb.jpg"
+      },
+      {
+        "name": "Ciarra Carter",
+        "character": "Paula",
+        "profile_url": "https://image.tmdb.org/t/p/w185/7fm7xNRk2UroXyVFkHKyS4OJhYB.jpg"
+      }
+    ],
+    "crew": [
+      {
+        "name": "David DeCoteau",
+        "job": "Director"
+      },
+      {
+        "name": "Robert Dean Klein",
+        "job": "Writer"
+      }
+    ],
+    "similar": [
+      {
+        "tmdb_id": 633545,
+        "show_id": "611751",
+        "title": "The Missing Sister",
+        "poster_url": "https://image.tmdb.org/t/p/w342/w9RVDJgSPkeQAhUesQ8QH6ALNgZ.jpg",
+        "release_year": 2019,
+        "vote_average": 4.7
+      },
+      {
+        "tmdb_id": 279381,
+        "show_id": "s7688",
+        "title": "By Appointment Only",
+        "poster_url": "https://image.tmdb.org/t/p/w342/2GJHEUR6XmTDbAkpJQTxeY83jkN.jpg",
+        "release_year": 2007,
+        "vote_average": 4.6
+      },
+      {
+        "tmdb_id": 452964,
+        "show_id": null,
+        "title": "Boyfriend Killer",
+        "poster_url": "https://image.tmdb.org/t/p/w342/c7TELGfFxVX6qYJO7t8Hc8gLSp4.jpg",
+        "release_year": 2017,
+        "vote_average": 5.5
+      },
+      {
+        "tmdb_id": 446908,
+        "show_id": "263471",
+        "title": "Bad Twin",
+        "poster_url": "https://image.tmdb.org/t/p/w342/lIjswL19EB8Qh5nWp26eWe4LBbR.jpg",
+        "release_year": 2016,
+        "vote_average": 5.2
+      },
+      {
+        "tmdb_id": 441744,
+        "show_id": "68006",
+        "title": "Taken Heart",
+        "poster_url": "https://image.tmdb.org/t/p/w342/2DqlgdPHWOI6hPRFMY1TOskMQgg.jpg",
+        "release_year": 2017,
+        "vote_average": 3.8
+      },
+      {
+        "tmdb_id": 624825,
+        "show_id": null,
+        "title": "Trapped: The Alex Cooper Story",
+        "poster_url": "https://image.tmdb.org/t/p/w342/9Uc1MkysNBTSd9Vf4QneKFUBCz2.jpg",
+        "release_year": 2019,
+        "vote_average": 4.9
+      }
+    ]
+  },
   "1436457": {
     "matched": true,
     "tmdb_id": 1563403,
@@ -33094,5 +33851,302 @@
       }
     ],
     "similar": []
+  },
+  "s5968": {
+    "matched": true,
+    "tmdb_id": 486882,
+    "title": "89",
+    "poster_url": "https://image.tmdb.org/t/p/w500/mu7mzHaQ495YAkHtytWFXmYvVn0.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w1280/XGMXqOfDVIPjsUiMK40otzBx8R.jpg",
+    "vote_average": 6.2,
+    "vote_count": 38,
+    "tagline": "Arsenal's triumph against the odds",
+    "overview": "89 tells the incredible story of one of football’s greatest triumphs: when against all odds Arsenal snatched the Championship title from Liverpool at Anfield in the last minute of the last game of the 1988/89 season. It’s a universal tale of a band of brothers who, led by a charismatic and deeply respected manager, came together to defy the odds and create history.",
+    "genres": [
+      "Documentary"
+    ],
+    "imdb_id": "tt7614404",
+    "cast": [
+      {
+        "name": "Lee Dixon",
+        "character": "Himself",
+        "profile_url": "https://image.tmdb.org/t/p/w185/xdaO9jHAsE1O1d6nrXqQkyHByKz.jpg"
+      },
+      {
+        "name": "Ian Wright",
+        "character": "Himself",
+        "profile_url": "https://image.tmdb.org/t/p/w185/xSCYjYkJN945YREO5iXhDl3KD03.jpg"
+      },
+      {
+        "name": "Paul Merson",
+        "character": "Himself",
+        "profile_url": null
+      },
+      {
+        "name": "Steve Bould",
+        "character": "Himself",
+        "profile_url": "https://image.tmdb.org/t/p/w185/x8TbuFOJTHkinGy72tLKgMN2kEi.jpg"
+      },
+      {
+        "name": "Tony Adams",
+        "character": "Himself",
+        "profile_url": "https://image.tmdb.org/t/p/w185/1ggoJvEMnz5iHOt00lNOPvnfKhe.jpg"
+      },
+      {
+        "name": "Nigel Winterburn",
+        "character": "Himself",
+        "profile_url": "https://image.tmdb.org/t/p/w185/zCXZd66rIerllSh8daSlC0wOlPq.jpg"
+      },
+      {
+        "name": "Alan Smith",
+        "character": "Himself",
+        "profile_url": "https://image.tmdb.org/t/p/w185/sju5BUIdhTZCWCM0aFApGBto9X7.jpg"
+      },
+      {
+        "name": "Perry Groves",
+        "character": "Himself",
+        "profile_url": "https://image.tmdb.org/t/p/w185/sC0K2LRUh2oC4PquzUNAHv3kLcY.jpg"
+      }
+    ],
+    "crew": [
+      {
+        "name": "Dave Stewart",
+        "job": "Director"
+      }
+    ],
+    "similar": [
+      {
+        "tmdb_id": 286,
+        "show_id": null,
+        "title": "Germany: A Summer's Fairytale",
+        "poster_url": "https://image.tmdb.org/t/p/w342/pQ7p8zGxy0OTy6RwDA0Y2mlqmdu.jpg",
+        "release_year": 2006,
+        "vote_average": 6.9
+      },
+      {
+        "tmdb_id": 1174498,
+        "show_id": null,
+        "title": "Faltam 05 Minutos",
+        "poster_url": "https://image.tmdb.org/t/p/w342/nyuNN23HOvrmfjOiwmG7bqlqXuz.jpg",
+        "release_year": 2007,
+        "vote_average": 0
+      },
+      {
+        "tmdb_id": 435820,
+        "show_id": null,
+        "title": "Adolphe Appia Visionary of Invisible",
+        "poster_url": "https://image.tmdb.org/t/p/w342/jobgWBhkgcetWaoAhFp49SQ4ZgU.jpg",
+        "release_year": 1988,
+        "vote_average": 0
+      },
+      {
+        "tmdb_id": 1538513,
+        "show_id": null,
+        "title": "SZCZĘSNY",
+        "poster_url": "https://image.tmdb.org/t/p/w342/1isegUvsx3AkSsnjIpHecLSYTnp.jpg",
+        "release_year": 2025,
+        "vote_average": 6.8
+      },
+      {
+        "tmdb_id": 685,
+        "show_id": null,
+        "title": "Olympia Part Two: Festival of Beauty",
+        "poster_url": "https://image.tmdb.org/t/p/w342/oleIfZJ4NZebY9ETjoaZoTXYDLb.jpg",
+        "release_year": 1938,
+        "vote_average": 6.7
+      },
+      {
+        "tmdb_id": 436450,
+        "show_id": "335797",
+        "title": "Addicted to Porn: Chasing the Cardboard Butterfly",
+        "poster_url": "https://image.tmdb.org/t/p/w342/72Vf0T8naq5emFa5AMNMOCiGgMP.jpg",
+        "release_year": 2017,
+        "vote_average": 5.1
+      }
+    ]
+  },
+  "s2141": {
+    "matched": true,
+    "tmdb_id": 106530,
+    "title": "(Un)Well",
+    "poster_url": "https://image.tmdb.org/t/p/w500/bC1CSudFJCvDm679fRtqdVHlDc3.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w1280/fhIUJF2MpFoFXLCEErOIEuucqRi.jpg",
+    "vote_average": 6.3,
+    "vote_count": 52,
+    "tagline": "",
+    "overview": "This docuseries takes a deep dive into the lucrative wellness industry, which touts health and healing. But do the products live up to the promises?",
+    "genres": [
+      "Documentary"
+    ],
+    "imdb_id": null,
+    "cast": [],
+    "crew": [],
+    "similar": [
+      {
+        "tmdb_id": 3942,
+        "show_id": null,
+        "title": "Celebrity Fit Club UK",
+        "poster_url": null,
+        "release_year": 2002,
+        "vote_average": 7
+      },
+      {
+        "tmdb_id": 275366,
+        "show_id": null,
+        "title": "Data Science vs Fake",
+        "poster_url": "https://image.tmdb.org/t/p/w342/fI43kyCyo2VwTYcROU8d8P8A6Ce.jpg",
+        "release_year": 2018,
+        "vote_average": 0
+      },
+      {
+        "tmdb_id": 57013,
+        "show_id": "245692",
+        "title": "Pain, Pus and Poison: The Search for Modern Medicines",
+        "poster_url": "https://image.tmdb.org/t/p/w342/aW3y4WZUVFZk64Iw8LsgWrzu18C.jpg",
+        "release_year": 2013,
+        "vote_average": 8
+      },
+      {
+        "tmdb_id": 28046,
+        "show_id": null,
+        "title": "The Truth About Food",
+        "poster_url": "https://image.tmdb.org/t/p/w342/neynREZxS5CF3LlLw8ScD9IHbT2.jpg",
+        "release_year": 2007,
+        "vote_average": 8
+      },
+      {
+        "tmdb_id": 89684,
+        "show_id": null,
+        "title": "Légendes urbaines",
+        "poster_url": "https://image.tmdb.org/t/p/w342/6PBVYD6REe4bASndNfn7gtOrqGI.jpg",
+        "release_year": 2006,
+        "vote_average": 0
+      },
+      {
+        "tmdb_id": 1428,
+        "show_id": "s2070",
+        "title": "MythBusters",
+        "poster_url": "https://image.tmdb.org/t/p/w342/lvRnMu00NLGiTPijGZg9CRF3nuY.jpg",
+        "release_year": 2003,
+        "vote_average": 7.8
+      }
+    ]
+  },
+  "s3653": {
+    "matched": true,
+    "tmdb_id": 437023,
+    "title": "¡Ay, mi madre!",
+    "poster_url": "https://image.tmdb.org/t/p/w500/9483qTrQWGA3O8zgx1SJexbyLke.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w1280/ew7ChKmoOrYgh774WJ8IPbgcpVB.jpg",
+    "vote_average": 4.7,
+    "vote_count": 34,
+    "tagline": "",
+    "overview": "When her estranged mother suddenly dies, a woman must follow the quirky instructions laid out in the will in order to collect an important inheritance.",
+    "genres": [
+      "Comedy"
+    ],
+    "imdb_id": "tt6213294",
+    "cast": [
+      {
+        "name": "Secun de la Rosa",
+        "character": "Segundo",
+        "profile_url": "https://image.tmdb.org/t/p/w185/mLuBhTcgVcgiTzsiATgry40vhMa.jpg"
+      },
+      {
+        "name": "Estefanía de los Santos",
+        "character": "María",
+        "profile_url": "https://image.tmdb.org/t/p/w185/s08UMCjRXWt8w3dwhJhmeaq2YkC.jpg"
+      },
+      {
+        "name": "Mariola Fuentes",
+        "character": "Rossi de la Vega",
+        "profile_url": "https://image.tmdb.org/t/p/w185/cWElWUCtJ1ecAzs55ppm1kJR4Bd.jpg"
+      },
+      {
+        "name": "Marta Torné",
+        "character": "Carla",
+        "profile_url": "https://image.tmdb.org/t/p/w185/canz2uFS8fuZdijGfikHomHbFme.jpg"
+      },
+      {
+        "name": "Paz Vega",
+        "character": "Pili",
+        "profile_url": "https://image.tmdb.org/t/p/w185/fNLlJysFd5f0Q8Lj20EZpU8BiRN.jpg"
+      },
+      {
+        "name": "Terele Pávez",
+        "character": "Petra",
+        "profile_url": "https://image.tmdb.org/t/p/w185/yqvfWtzQ0m88qZqZwy6jdnhLn8H.jpg"
+      },
+      {
+        "name": "María Alfonsa Rosso",
+        "character": "Isabel",
+        "profile_url": "https://image.tmdb.org/t/p/w185/jHxsreByfGQQowvw0IoCIeWyKmL.jpg"
+      },
+      {
+        "name": "Concha Galán",
+        "character": "Juani",
+        "profile_url": "https://image.tmdb.org/t/p/w185/x0ovVpzkd8ZEtJjOw9uVus00WxT.jpg"
+      }
+    ],
+    "crew": [
+      {
+        "name": "Frank Ariza",
+        "job": "Writer"
+      },
+      {
+        "name": "Frank Ariza",
+        "job": "Director"
+      }
+    ],
+    "similar": [
+      {
+        "tmdb_id": 437026,
+        "show_id": "407250",
+        "title": "The Exchange",
+        "poster_url": "https://image.tmdb.org/t/p/w342/gmCqqRNjcx31Ze8SNUR8P4V0PaW.jpg",
+        "release_year": 2017,
+        "vote_average": 5
+      },
+      {
+        "tmdb_id": 437033,
+        "show_id": "437033",
+        "title": "Toc Toc",
+        "poster_url": "https://image.tmdb.org/t/p/w342/8OM0FBfnpHmJVX9IiiuLGld3J6k.jpg",
+        "release_year": 2017,
+        "vote_average": 7.1
+      },
+      {
+        "tmdb_id": 258803,
+        "show_id": null,
+        "title": "VIP",
+        "poster_url": "https://image.tmdb.org/t/p/w342/rs0qnCRRmpehgNhrfmZ8tIqZQba.jpg",
+        "release_year": 2008,
+        "vote_average": 4.7
+      },
+      {
+        "tmdb_id": 437522,
+        "show_id": "96721",
+        "title": "Mahapurush O Kapurush",
+        "poster_url": null,
+        "release_year": 2013,
+        "vote_average": 0
+      },
+      {
+        "tmdb_id": 437302,
+        "show_id": null,
+        "title": "Can't Say Goodbye",
+        "poster_url": "https://image.tmdb.org/t/p/w342/28Q9raFk8gldo9RpQLsN0MrytmL.jpg",
+        "release_year": 2017,
+        "vote_average": 5.6
+      },
+      {
+        "tmdb_id": 437297,
+        "show_id": null,
+        "title": "Lord, Give Me Patience",
+        "poster_url": "https://image.tmdb.org/t/p/w342/c0UfnzFW7Vk7qX2rYij2G5ahB1z.jpg",
+        "release_year": 2017,
+        "vote_average": 6.3
+      }
+    ]
   }
 }
