@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Netflix Business Intelligence Dashboard
 
-## Getting Started
+A professional hybrid-architecture web application for comprehensive catalog analysis, business intelligence, and predictive forecasting of Netflix datasets.
 
-First, run the development server:
+## Architecture
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+This project is built using a **Hybrid Architecture** designed for high-performance and low-footprint deployment:
+- **Frontend**: Next.js + TypeScript (React 19) providing a smooth, dark-themed, glassmorphic UI with animations (Framer Motion) and charting (Recharts).
+- **Backend**: FastAPI (Python 3.13) + Pandas + Numpy, executing fast calculations, data parsing, global search indexing, and AI Analytics Assistant tasks.
+- **Data Layer**: All large datasets (`netflix_master_1990_2025.csv`) and TMDb/OMDb JSON caching files are maintained strictly backend-side, ensuring minimized client bundles.
+
+```mermaid
+graph TD
+  Client[Next.js Client] -->|Client-Side Fetch /api/*| Proxy[Next.js Rewrites Proxy]
+  Client -->|Client-Side Fetch /data/titles.json| Proxy
+  Proxy -->|Forward to http://localhost:8000| FastAPI[FastAPI Backend]
+  ServerComp[Next.js Server Component] -->|SSR Fetch /api/analytics/*| FastAPI
+  FastAPI -->|Load/Filter| CSV[netflix_master_1990_2025.csv]
+  FastAPI -->|Check/Enrich| Cache[TMDb & OMDb Caches]
+  FastAPI -->|Fetch API Fallbacks| TMDb[TMDb / OMDb APIs]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Folder Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+Netflix-Business-Intelligence/
+├── frontend/                  # Next.js Application
+│   ├── src/
+│   │   ├── app/               # Next.js Pages & SSR Components
+│   │   ├── components/        # UI Dashboards, Modals, Cards, Drawer
+│   │   └── lib/
+│   │       ├── data.ts        # TypeScript Type Definitions
+│   │       └── GlobalFilterContext.tsx
+│   ├── public/                # Static assets
+│   ├── next.config.ts         # Rewrite Proxies to Backend
+│   └── package.json
+├── backend/                   # FastAPI Python Application
+│   ├── analytics/
+│   │   ├── __init__.py
+│   │   └── engine.py          # Data Parsing & Analytics Engine
+│   ├── routers/
+│   │   ├── __init__.py
+│   │   ├── titles.py          # Metadata & Caching APIs
+│   │   ├── search.py          # Global Search API
+│   │   ├── person.py          # TMDb actor/director API
+│   │   ├── assistant.py       # AI Analytics Assistant
+│   │   └── analytics.py       # SSR Analytics Pages & data serving
+│   ├── config.py              # Configuration manager
+│   ├── main.py                # FastAPI Application Entry
+│   ├── requirements.txt       # Python Dependencies
+│   └── netflix_master_1990_2025.csv # Catalog Dataset
+├── scripts/                   # Helper preprocessing scripts
+├── images/                    # UI illustrations
+├── render.yaml                # Render Blueprint Deployment File
+└── README.md
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Environment Variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The backend relies on the following environment variables. Set them in a `.env` file inside `backend/` or directly in your hosting dashboard:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Variable | Description | Required |
+| --- | --- | --- |
+| `TMDB_API_KEY` | The Movie Database (TMDb) API key for posters/credits/crew fallbacks | Yes |
+| `OMDB_API_KEY` | Open Movie Database (OMDb) API key for certificate/award/box office fallbacks | Yes |
+| `PORT` | Local FastAPI port (default: `8000`) | No |
 
-## Deploy on Vercel
+The frontend relies on the following environment variables inside `frontend/.env.local`:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Variable | Description | Default |
+| --- | --- | --- |
+| `BACKEND_API_URL` | Internal FastAPI backend endpoint for SSR fetches | `http://localhost:8000` |
+| `NEXT_PUBLIC_API_URL` | External FastAPI backend URL for client rewrites | `http://localhost:8000` |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Local Development
+
+### 1. Run Backend (FastAPI)
+1. Navigate to the `backend/` folder:
+   ```bash
+   cd backend
+   ```
+2. Create and activate a virtual environment, then install requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Start the FastAPI server (listening on port 8000):
+   ```bash
+   python main.py
+   ```
+
+### 2. Run Frontend (Next.js)
+1. Navigate to the `frontend/` folder:
+   ```bash
+   cd ../frontend
+   ```
+2. Install npm packages:
+   ```bash
+   npm install
+   ```
+3. Run the development server (listening on port 3000):
+   ```bash
+   npm run dev
+   ```
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## Render Deployment
+
+This project contains a `render.yaml` Blueprint specification, enabling one-click deployment for both Next.js and FastAPI from this repository.
+
+### Manual Steps:
+1. Connect this repository to your **Render** dashboard.
+2. Select **Blueprints** and create a new environment.
+3. Configure the `TMDB_API_KEY` and `OMDB_API_KEY` when prompted in the Render blueprint dashboard.
+4. Render will automatically detect `render.yaml` and provision both services.

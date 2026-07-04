@@ -1,0 +1,32 @@
+services:
+  # 1. FastAPI Python Backend
+  - type: web
+    name: netflix-analytics-backend
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn main:app --host 0.0.0.0 --port $PORT"
+    rootDir: backend
+    envVars:
+      - key: TMDB_API_KEY
+        sync: false
+      - key: OMDB_API_KEY
+        sync: false
+
+  # 2. Next.js Frontend
+  - type: web
+    name: netflix-analytics-frontend
+    runtime: node
+    buildCommand: "npm run build"
+    startCommand: "npm run start"
+    rootDir: frontend
+    envVars:
+      - key: BACKEND_API_URL
+        fromService:
+          name: netflix-analytics-backend
+          type: web
+          property: host
+      - key: NEXT_PUBLIC_API_URL
+        fromService:
+          name: netflix-analytics-backend
+          type: web
+          property: host

@@ -1,0 +1,13 @@
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/bDCNyjobTV44moTrAKVK4/_buildManifest.js",
+    "static/bDCNyjobTV44moTrAKVK4/_ssgManifest.js",
+    "static/bDCNyjobTV44moTrAKVK4/_clientMiddlewareManifest.js"
+  ],
+  "rootMainFiles": []
+}
